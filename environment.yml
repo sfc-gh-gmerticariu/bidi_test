@@ -1,0 +1,7 @@
+name: app_environment
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+  - nodefaults
+dependencies:
+  - streamlit
+  - snowflake-snowpark-python

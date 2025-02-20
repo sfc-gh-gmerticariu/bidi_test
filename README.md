@@ -25,7 +25,7 @@ CREATE OR REPLACE GIT REPOSITORY streamlit.apps.example_bidi
 	API_INTEGRATION = 'GITHUB';
 
 CREATE OR REPLACE STREAMLIT streamlit.apps.test
-FROM @example_bidi/branches/main
+FROM @streamlit.apps.example_bidi/branches/main
     MAIN_FILE='streamlit_app.py'
     QUERY_WAREHOUSE='regress';
 ```
